@@ -40,21 +40,6 @@ Let's build something cool together for the Daggerheart community!
 > **Note:** **please do not submit AI-generated artwork** (including images, illustrations, or icons).  
 > We value original and community-created content wherever possible.
 
-## Features
-
-- Visually distinct animated dice for Hope and Fear
-- Smooth roll animation with Framer Motion
-- Narrative prompt generation based on the outcome
-- Responsive layout for desktop and mobile
-- Clean and reusable component structure, designed with future portability to React Native in mind
-
-## Tech Stack
-
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Tailwind CSS v4](https://tailwindcss.com/)
-
 ## Getting Started
 
 ```bash
