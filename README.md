@@ -10,8 +10,6 @@
 A simple, animated dice roller for the **Daggerheart** TTRPG.  
 Built with **React**, **Vite**, **Framer Motion**, and **Tailwind CSS v4**, this app rolls two d12 dice — one for **Hope** and one for **Fear** — and displays the result with smooth visual feedback.
 
----
-
 ## 📜 Disclaimer
 
 This is a **fan-made project** for the tabletop RPG **Daggerheart**, originally created by Darrington Press and Critical Role.
@@ -24,8 +22,6 @@ This project is intended to comply with the
 **[Darrington Press Community Gaming License (CGL)](https://darringtonpress.com/license/)**.
 
 If you are from Darrington Press and believe this project violates the license or use of your IP in any way, please reach out and I will take immediate action.
-
----
 
 ## Contributing
 
@@ -44,8 +40,6 @@ Let's build something cool together for the Daggerheart community!
 > **Note:** **please do not submit AI-generated artwork** (including images, illustrations, or icons).  
 > We value original and community-created content wherever possible.
 
----
-
 ## Features
 
 - Visually distinct animated dice for Hope and Fear
@@ -54,16 +48,12 @@ Let's build something cool together for the Daggerheart community!
 - Responsive layout for desktop and mobile
 - Clean and reusable component structure, designed with future portability to React Native in mind
 
----
-
 ## Tech Stack
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Tailwind CSS v4](https://tailwindcss.com/)
-
----
 
 ## Getting Started
 
@@ -79,7 +69,6 @@ npm install
 # Start development server
 npm run dev
 ```
----
 
 ## License
 
