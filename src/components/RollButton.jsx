@@ -1,11 +1,11 @@
-export default function RollButton({ onClick, disabled }) {
+export default function RollButton({ onClick, disabled, children }) {
   return (
     <button
       onClick={onClick}
       disabled={disabled}
-      className="bg-gray-800 text-white px-6 py-3 rounded mt-4 hover:bg-gray-700 disabled:opacity-50"
+      className="px-6 py-2 bg-gray-800 text-white font-semibold rounded shadow disabled:opacity-50"
     >
-      Roll Dice
+      {children}
     </button>
   );
 }

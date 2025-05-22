@@ -1,12 +1,87 @@
-# React + Vite
+![License](https://img.shields.io/github/license/vkaraujo/daggerheart-dice-roller)
+![Build](https://img.shields.io/github/actions/workflow/status/vkaraujo/daggerheart-dice-roller/deploy.yml?branch=main)
+![Last Commit](https://img.shields.io/github/last-commit/vkaraujo/daggerheart-dice-roller)
+![Issues](https://img.shields.io/github/issues/vkaraujo/daggerheart-dice-roller)
+![Stars](https://img.shields.io/github/stars/vkaraujo/daggerheart-dice-roller?style=social)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🎲 Daggerheart Dice Roller
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple, animated dice roller for the **Daggerheart** TTRPG.  
+Built with **React**, **Vite**, **Framer Motion**, and **Tailwind CSS v4**, this app rolls two d12 dice — one for **Hope** and one for **Fear** — and displays the result with smooth visual feedback.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📜 Disclaimer
+
+This is a **fan-made project** for the tabletop RPG **Daggerheart**, originally created by Darrington Press and Critical Role.
+
+> I am **not affiliated** with Darrington Press, Critical Role, or any related entities in any way.  
+> All rights to Daggerheart remain with their respective owners.  
+> This project is for personal and community enjoyment only.
+
+This project is intended to comply with the  
+**[Darrington Press Community Gaming License (CGL)](https://darringtonpress.com/license/)**.
+
+If you are from Darrington Press and believe this project violates the license or use of your IP in any way, please reach out and I will take immediate action.
+
+---
+
+## Contributing
+
+This is an open-source, public project — **contributions are welcome!**
+
+Whether you want to:
+
+- Add new features (e.g. sound effects, theme switcher, roll history)
+- Improve animations or UI/UX
+- Refactor or enhance code clarity
+- Help with documentation or localization
+
+Please feel free to open issues or submit pull requests
+Let's build something cool together for the Daggerheart community!
+
+> **Note:** **please do not submit AI-generated artwork** (including images, illustrations, or icons).  
+> We value original and community-created content wherever possible.
+
+---
+
+## Features
+
+- Visually distinct animated dice for Hope and Fear
+- Smooth roll animation with Framer Motion
+- Narrative prompt generation based on the outcome
+- Responsive layout for desktop and mobile
+- Clean and reusable component structure, designed with future portability to React Native in mind
+
+---
+
+## Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/vkaraujo/daggerheart-dice-roller.git
+
+cd daggerheart-dice-roller
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+---
+
+## License
+
+[MIT License](LICENSE)
+
