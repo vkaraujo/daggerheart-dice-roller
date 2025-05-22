@@ -1,13 +1,9 @@
-export default function ResultDisplay({ hope, fear }) {
-  if (hope == null || fear == null) return null;
-
-  let narrative = "Neutral outcome.";
-  if (hope > fear) narrative = "Hope shines through.";
-  else if (fear > hope) narrative = "Darkness creeps in...";
+export default function ResultDisplay({ hope, fear, prompt }) {
+  if (hope == null || fear == null || !prompt) return null;
 
   return (
     <div className="text-center mt-4">
-      <p className="text-lg">Narrative: {narrative}</p>
+      <p className="text-lg italic">Narrative: {prompt}</p>
     </div>
   );
 }
