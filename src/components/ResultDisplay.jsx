@@ -1,9 +1,11 @@
 export default function ResultDisplay({ hope, fear, prompt }) {
-  if (hope == null || fear == null || !prompt) return null;
-
   return (
-    <div className="text-center mt-4">
-      <p className="text-lg italic">Narrative: {prompt}</p>
+    <div className="text-center mt-4 min-h-[2rem] text-zinc-600">
+      {hope == null || fear == null ? (
+        <p className="italic text-sm text-zinc-400">No result yet</p>
+      ) : (
+        <p className="text-lg italic"> {prompt}</p>
+      )}
     </div>
   );
 }
