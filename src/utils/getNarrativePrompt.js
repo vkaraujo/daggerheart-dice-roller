@@ -1,4 +1,4 @@
-import { prompts } from './loadPrompts';
+import { prompts } from "./loadPrompts";
 
 export function getNarrativePrompt(hope, fear) {
   if (hope == null || fear == null) return null;
@@ -7,5 +7,5 @@ export function getNarrativePrompt(hope, fear) {
 
   if (hope > fear) return getRandom(prompts.hope);
   if (fear > hope) return getRandom(prompts.fear);
-  return getRandom(prompts.crit);
+  return getRandom(prompts.crit); 
 }
