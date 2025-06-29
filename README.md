@@ -4,6 +4,7 @@
 ![Issues](https://img.shields.io/github/issues/vkaraujo/daggerheart-dice-roller)
 ![Stars](https://img.shields.io/github/stars/vkaraujo/daggerheart-dice-roller?style=social)
 
+**Live app:** [https://daggerheart-dice-roller.vercel.app/](https://daggerheart-dice-roller.vercel.app/)
 
 # 🎲 Daggerheart Dice Roller
 
